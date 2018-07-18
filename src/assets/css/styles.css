@@ -1,0 +1,515 @@
+/* CSS Document */
+
+.clearfix:after {
+	DISPLAY: block; HEIGHT: 0px; VISIBILITY: hidden; CLEAR: both; CONTENT: "."
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+*.clearfix {
+	DISPLAY: block
+}
+
+body{
+	/*background: url(../images/boots-body-fade.jpg) repeat-x #FFF;*/
+	background-color: #CCCCCC;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0;
+	padding:0;
+	line-height:normal;
+	color:#555;
+	}
+
+ul, li, p, h1, h2, h3, h4, h5, input, select,form,table,tr,td,th{
+	padding:0;
+	margin:0;
+	}
+img{
+	border:none;
+	}
+a{
+	text-decoration:none;
+	color:#9a9999;
+	border:none;
+	outline:none;
+	}
+
+a:hover{
+	text-decoration:underline;
+	}
+.clear{
+	clear:both;
+	}
+.left{
+	float:left;
+	}
+.right{
+	float:right;
+	}
+.middle{
+	vertical-align:middle;
+	}
+.footerwrapper{
+	/*background:url(images/footer_bg.gif) repeat-x bottom left;*/
+	}
+#wrapper{
+	width:1010px;
+	height:auto;
+	margin:0 auto;
+	padding:25px;
+	padding-top:15px;
+	background:#FFF;
+	/*background:#fbfdff;*/
+	/*background:url(images/wrapper_bg.png) repeat-y top left;*/
+	}
+#header{ 
+        padding-top: 10px;
+	height:105px;
+	width:958px;
+	border-bottom:1px solid #005577;
+	}
+
+.logo
+{
+
+	float:left;
+	width:960px;
+/*	height:130px;*/
+        height: 84px;
+	background:url(../images/Pru-MainLogo.png) no-repeat;
+}
+
+#menubar{
+	list-style:none;
+	margin:0;
+	padding:10px 0 20px 3px;
+	color:#232a68;
+	font-size:12px;
+	}
+#menubar li{
+	text-align:left;
+	margin:0;
+	font-weight:bold;
+
+	/*background:url(images/bullet.gif) no-repeat top left;*/
+	}
+#menubar li a{
+	
+	padding:8px 0 8px 15px;
+	display:block;
+	text-decoration:none;
+	display:inline-block;
+	width:210px;
+	background:url(../images/lftmenu_line.jpg) no-repeat bottom left;
+	color:#005577;
+	}
+#menubar li a:hover, #menubar li a:active, #menubar li a.active{
+	color:#363f95;
+	
+
+	}	
+
+#subcat{
+	list-style:none;
+	margin-left:15px;color:#555555;
+	font-weight:normal;
+}
+
+#subcat li{
+	font-weight:normal;
+}
+
+.container{
+	padding:0;
+	width:100%;
+	/*background:url(../images/leftpanel_bg.gif) repeat-y top left;*/
+	margin:0;
+	
+	}
+.login_container{
+	  margin: auto;
+	min-height: 300px;
+	padding: 0;
+	
+	width: 100%;
+}
+
+.module{
+	/*background:#d7eef3 url(../images/boots-module-top.jpg) repeat-x top left;*/
+        background:#C9DCE3 url(../images/boots-module-top.jpg) repeat-x top left;       
+	border:1px solid #CCC;
+	padding:4px 15px 15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	}
+
+.module2{
+	background:#e7e8e9;
+	border:1px solid #CCC;
+	padding:4px 15px 15px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	}
+
+
+
+.module2 h2{
+	font-size:20px;
+	color:#14BED9;
+/*	color:#005577;*/
+	padding:3px 0 25px 0;
+	}
+
+
+.module h2{
+	font-size:20px;
+	color:#FFF	;
+	padding:3px 0 25px 0;
+	}
+.module h2 img{
+	vertical-align:top;
+	}
+	
+.mrgn0x40{
+	    margin: 0 auto;
+    	width: 710px;
+	}
+.lbl{
+	width:100px;
+	margin:0 0 20px 0;
+	display:inline-block;
+	vertical-align:middle;
+	font-size:18px;
+	}
+
+	.inpt
+	{
+
+		width:146px;
+		border:1px solid #CCC;
+		padding:8px 4px;
+		width:250px;
+		color:#252323;
+		font-size:13px;
+
+	}
+
+#progress-bar-holder
+{
+
+	width:697px; 
+	height:30px; 
+	border:1px solid #ccc; 
+	display:none;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+#progress-bar
+{
+	width:0%; 
+	height:30px; 
+	border:0px solid #ccc; 
+	background:#c5e6df; 
+	padding:0px
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/*.btn{
+	/*background:url(../images/btn_bg.gif) repeat-x;*/
+/*
+	border:none;
+	padding:4px 20px 7px;
+	margin:0;
+	color:#fff;
+	font-weight:bold;
+	font-size:14px;
+	outline:none;
+	background:#232a68;
+	}
+
+*/
+
+
+.btn:hover
+{
+		/*background:#04378a;*/
+}
+
+.btn
+{
+
+	padding:8px;
+	padding-bottom:8px;
+	padding-left:9px;
+	padding-right:9px;
+	color:#fff;
+	background:#232a68;
+	font-size:12px;
+	cursor: pointer;
+	outline:none;
+	border:0px;
+	font-weight:bold;
+	/*
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:url(../images/button.jpg) repeat-x #04378a;
+	border:1px solid #001a6f;
+	*/
+	background-color:#F09B2C;
+/*	background-color:#005577;*/
+	border:none;
+	
+}
+
+
+
+@-moz-document url-prefix() 
+{ .btn{
+/*	padding:2px 20px 8px 20px;*/
+	}}
+.loginbox{
+	width:450px;
+	margin:8% auto;
+	}	
+	
+#footer{
+	font-size:12px;
+	color:#afb1b3;
+	margin:0 auto 0 auto;
+	height:52px;
+	padding:0 0 0 0;
+	clear:both;
+	background:	url(../images/footer_bg.gif) repeat-x top center;
+	}
+
+#footer p{
+	padding:10px 0 0 0;
+	margin:0;
+	text-align:center;
+	}
+.fs12{
+	font-size:12px;
+	}
+	
+.mrgnb5{
+	margin-bottom:5px;
+	}	
+
+.leftpanel{
+	width:200px;
+	float:left;
+	margin-right:15px;	
+	min-height:350px;
+	}
+
+.loginleftpanel{
+	
+	width:570px;
+	/*padding: 100px 0 50px 425px;float:left;*/
+	margin: 96px auto;
+}
+ 
+
+.rightpanel{
+	float:left;
+	/*width:570px;*/
+	padding:20px 0;
+	width:745px;
+	margin:0;
+}
+
+
+	.standard-table td
+	{
+
+		height:50px;
+			
+	}
+
+	.standard-button
+	{
+
+		width:150px;
+		cursor:pointer
+
+	}
+
+
+	
+ul#galleryStyle {
+margin:0px auto;
+padding:0px;
+list-style-type:none;
+width:100%;
+
+}
+
+ul#galleryStyle li {
+float: left;
+margin:0px;
+padding-right:10px;
+padding-bottom:8px;
+}
+
+
+#dhtmltooltip
+{
+	position: absolute;
+	background:url(../images/tooltip.png);
+	padding:20px;
+	width:133px;
+	height:90px;
+	font-size:13px;
+	color:#fff;
+	text-align:center;
+	visibility: hidden;
+	z-index: 9999;
+	
+}
+.selectbox{
+    border: 1px solid #CCCCCC;
+    padding: 8px 4px;
+    width: 260px;
+}
+.form-outer{margin:0 0 20px 0;}
+.form-label{float:left; width:120px;font-weight:bold;}
+.form-value{float:left;}
+.cb{clear:both;}
+
+
+/* New Css code 8th oct 2013*/
+.mrgn0x40_lg {
+    margin: 0 auto;
+    width: 710px;
+}
+
+
+.wdt_150_lg{ width:150px; margin-right:10px; float:left;}
+.wdt_100_lg{ width:100px; margin-right:10px;  float:left;}
+.mrgn0x40_lg label{      
+/*    background: none repeat scroll 0 0 #005577;*/
+    background: none repeat scroll 0 0 #A0D3F0;
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-align: center;}
+
+.mrgn0x40_lg .selectbox {
+    border: 1px solid #CCCCCC;
+    padding: 8px 4px;
+  }
+ .mrgn0x40_lg .input {
+    border: 1px solid #CCCCCC;
+    padding: 9px 4px;
+  }
+.slt_box_w150{ width:150px;}
+.input_box_w90{ width:90px;}
+
+.slt_box_w100{ width:100px;}
+.clear{ clear:both;}
+ .mrgn0x40_lg .bg_table{ background: none repeat scroll 0 0 #005577;
+    color: #FFFFFF; font-size:12px; font-weight:bold; padding:5px;}
+	 .mrgn0x40_lg .text_12{ font-size:12px; font-weight:bold;}
+	 .mrgn0x40_lg .brd_3{ border:3px solid  #005577;}
+   
+/******add drop down css*******/
+.glossymenu{
+margin: 5px 0;
+padding: 0;
+width: 170px; /*width of menu*/
+
+}
+
+.glossymenu a.menuitem{
+background: url(../images/lftmenu_line.jpg) repeat-x bottom left;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#14BED9;
+/*color:#005577;*/
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 6px 0;
+padding-left: 10px;
+text-decoration: none;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color:#14BED9;
+/*color:#005577;*/
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 5px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-image: url(../images/lftmenu_line.jpg);
+    color: #14BED9;
+/*    color: #363F95;*/
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font-size:12px;
+/*font-size:11px;*/
+font-family:Arial, Helvetica, sans-seri;
+color: black;
+text-decoration: none;
+padding: 6px 0;
+padding-left: 20px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+
+}
+
+.automatic
+{
+   background: none repeat scroll 0 0 #005476 !important;
+    color: #FFFFFF !important;
+    font-size: 16px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    padding: 5px !important;
+}
+
+.automaticgr
+{
+   background: none repeat scroll 0 0 #005476 !important;
+    color: #FFFFFF !important;
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    padding: 5px !important;
+}

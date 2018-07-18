@@ -1,0 +1,10 @@
+  .bluestrip{
+        background: none repeat scroll 0 0 #A0D3F0 !important;
+        /*      background: none repeat scroll 0 0 #005577 !important;*/
+        color: #FFFFFF !important;
+        font-size: 12px !important;
+        padding: 6px 0 6px 6px !important;
+    }
+    .active{
+        background-color: #14BED9;
+    }

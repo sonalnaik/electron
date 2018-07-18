@@ -1,0 +1,32 @@
+ .week{
+        border: 1px solid rgb(204, 204, 204); 
+        height: 30px; 
+        width: 200px;
+        text-align: center;
+    }
+    
+    .week_ul{
+        list-style-type: none;
+    }
+    
+    .week_li{
+        background: none repeat scroll 0 0 #005476 !important;
+        color: #FFFFFF !important;
+        font-size: 14px !important;
+    }
+    
+    .zip_div{
+        border: 1px solid rgb(204, 204, 204); height: 132px; width: 200px;text-align: center;
+    }
+    
+    .zip_class{
+        float: right;
+    }
+    .zip_class1{
+        float: left;
+    }
+    
+    .mrgn0x40 {
+/*    margin: 25px auto 20px;
+    width: 500px;*/
+}

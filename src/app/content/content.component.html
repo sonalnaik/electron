@@ -1,0 +1,170 @@
+<!--footerwrapper starts here-->
+
+
+
+<div class="footerwrapper">
+    <!--wrapper starts here-->
+    <div id="wrapper">
+
+        <!--header starts here-->
+        <div id="header">
+            <div class="logo"><a href="#"></a></div>
+
+        </div>
+        <!--header ends here-->
+
+        <div class="container">
+
+            <div class="leftpanel">
+
+                <div class="glossymenu">
+                    <a class="menuitem" href="#"><br></a>
+
+                    <a class="menuitem bluestrip">Vitality Lloyds Reports</a>
+
+                    <a style="cursor:pointer" class="menuitem submenuheader" (click)="toggle()">Auto-generated Reports</a>
+                    <div class="submenu" *ngIf="show">
+                        <ul *ngIf="user_type==1">
+                            <!--lloyds*/ -->
+
+                            <li id="1"><a (click)="getParams('ERPU_SLA');" routerLink="/index/ERPU_SLA">Exceptions report - pharmacy uploads SLA</a></li>
+                            <li id="2"><a (click)="getParams('PCA');" routerLink="/index/PCA">Cancellations report - pharmacy clinics</a></li>
+                            <li id="3"><a (click)="getParams('ERPU');" routerLink="/index/ERPU">Exceptions report - pharmacy uploads</a></li>
+                            <li id="4"><a (click)="getParams('lloydsAvailabilityRiskReport');" routerLink="/index/lloydsAvailabilityRiskReport">Lloyds Pharmacy Availability Risk Report</a></li>
+                            <!--added by sonal -->
+                            <li id="5"><a (click)="getParams(lloydsOccupancyRiskReport);" routerLink="/index/lloydsOccupancyRiskReport">Lloyds Pharmacy Occupancy Risk Report</a></li>
+                            <!--added by sonal -->
+
+                            <li id="6"><a (click)="getParams('lloydsAvailabilityExceptionReport');" routerLink="/index/lloydsAvailabilityExceptionReport">Vitality Healthcheck rolling 4 weekly availability exceptions</a></li>
+                            <!--added by sonal -->
+                            <li id="7"><a (click)="getParams('lloydsAppointmentCancellationReport');" routerLink="/index/lloydsAppointmentCancellationReport">Vitality Healthcheck: appointment cancellations by pharmacy past 7 days</a></li>
+                            <li id="8"><a (click)="getParams('lloydsUnconfirmedAppointmentReport');" routerLink="/index/lloydsUnconfirmedAppointmentReport">Lloyds-Pharmacy-unconfirmed-appointment-Report-automated</a></li>
+                            <li id="9"><a (click)="getParams('finance');" href="#">Finance report</a></li>
+                            <li id="10"><a (click)="getParams('lloydsAvailContractMonthlyReport');" routerLink="/index/lloydsAvailContractMonthlyReport">Availability: contract report</a></li>
+                        </ul>
+                        <ul *ngIf="user_type==2">
+                            <!--Vitality Business Reports*/ -->
+                        </ul>
+
+                        <ul *ngIf="user_type==3">
+                            <!--Vitality Corporate Team*/ -->
+                            <li id="11"><a (click)="getParams('VHEOA');" routerLink="/index/VHEOA">Vitality Corporate Event Occupancy Report</a></li>
+                            <!--added by sonal -->
+                            <li id="12"><a (click)="getParams('VHEAD');" routerLink="/index/VHEAD">Vitality Corporate Event Attendance Report</a></li>
+                            <!--added by sonal -->
+                        </ul>
+                        <ul *ngIf="user_type==4">
+                            <!--RTH*/ -->
+                            <li id="13"><a (click)="getParams('ERPU_SLA');" routerLink="/index/ERPU_SLA">Exceptions report - pharmacy uploads SLA</a></li>
+                            <li id="14"><a (click)="getParams('PCA');" routerLink="/index/PCA">Cancellations report - pharmacy clinics</a></li>
+                            <li id="15"><a (click)="getParams('ERPU');" routerLink="/index/ERPU">Exceptions report - pharmacy uploads</a></li>
+                            <li id="16"><a (click)="getParams('ARD');" routerLink="/index/ARD">Appointments report - daily list</a></li>
+                            <li id="17"><a (click)="getParams('ERPUAmends');" routerLink="/index/ERPUAmends">Exceptions Report - Pharmacy Uploads - Resubmissions</a></li>
+                            <li id="18"><a (click)="getParams('AURDA');" routerLink="/index/AURDA">Pharmacy Unacknowledged Bookings report - Daily  </a></li>
+                            <li id="19"><a (click)="getParams('AURMA');" routerLink="/index/AURMA">Pharmacy Unacknowledged Bookings report - Monthly  </a></li>
+                            <li id="20"><a (click)="getParams('VTP');" routerLink="/index/VTP">Vitality Health Temporary Membership Number Report </a></li>
+                            <li id="21"><a (click)="getParams('CPCAR');" routerLink="/index/CPCAR">Corporate Pharmacy Clinics and Appointment report </a></li>
+
+                            <li id="22"><a (click)="getParams('VABRSACALL');" routerLink="/index/VABRSACALL">VH Corporate Bookings Report SAC All</a></li>
+                            <li id="23"><a (click)="getParams('VABRSAC');" routerLink="/index/VABRSAC">VH Customer Bookings Report SAC</a></li>
+                            <li id="24"><a (click)="getParams('MissingAuthsExceptions');" routerLink="/index/MissingAuthsExceptions">VH Customer Missing Auths Exceptions Report</a></li>
+                            <li id="25"><a (click)="getParams('MissingAuthsExceptionsCorp');" routerLink="/index/MissingAuthsExceptionsCorp">VH Corporate Missing Auths Exceptions Report</a></li>
+
+                            <li id="26"><a (click)="getParams('VHEOA');" routerLink="/index/VHEOA">Vitality Corporate Event Occupancy Report</a></li>
+                            <!--added by sonal -->
+                            <li id="27"><a (click)="getParams('VHEAD');" routerLink="/index/VHEAD">Vitality Corporate Event Attendance Report</a></li>
+                            <!--added by sonal -->
+
+                            <li id="28"><a (click)="getParams('lloydsAvailabilityExceptionReport');" routerLink="/index/lloydsAvailabilityExceptionReport">Vitality Healthcheck rolling 4 weekly availability exceptions</a></li>
+                            <!--added by sonal -->
+                            <li id="29"><a (click)="getParams('lloydsAppointmentCancellationReport');" routerLink="/index/lloydsAppointmentCancellationReport">Vitality Healthcheck: appointment cancellations by pharmacy past 7 days</a></li>
+                            <li id="30"><a (click)="getParams('lloydsUnconfirmedAppointmentReport');" routerLink="/index/lloydsUnconfirmedAppointmentReport">Lloyds-Pharmacy-unconfirmed-appointment-Report-automated</a></li>
+                            <li id="31"><a (click)="getParams('lloydsAvailContractMonthlyReport');" href="#">Finance report</a></li>
+                            <li id="32"><a (click)="getParams('lloydsAvailContractMonthlyReport');" routerLink="/index/lloydsAvailContractMonthlyReport">Availability: contract report</a></li>
+
+                            <li id="33"><a (click)="getParams('clinical');" routerLink="/index/clinical">PruVitality monthly clinical report</a></li>
+                            <li id="34"><a (click)="getParams('PCAR');" routerLink="/index/PCAR">Pharmacy Clinic Bookings report  </a></li>
+                            <li id="35"><a (click)="getParams('BatchNum');" routerLink="/index/BatchNum">Biometric Batch Number report  </a></li>
+
+                            <li id="38"><a (click)="getParams('ERPDNA');" routerLink="/index/ERPDNA">Exceptions report - pharmacy DNA</a></li>
+                            <li id="39"><a (click)="getParams('CLSSR');" routerLink="/index/CLSSR">Corporate Screenings Summary Locations Report</a></li>
+                            <li id="40"><a (click)="getParams('CSSR');" routerLink="/index/CSSR">Corporate Screenings Summary Report </a></li>
+                            <li id="41"><a (click)="getParams('PA');" routerLink="/index/PA">Exceptions report - pharmacy availability</a></li>
+                            <li id="42"><a (click)="getParams('lloydsAvailabilityRiskReport');" routerLink="/index/lloydsAvailabilityRiskReport">Lloyds Pharmacy Availability Risk Report</a></li>
+                            <!--added by sonal -->
+                            <li id="54"><a (click)="getParams('lloydsOccupancyRiskReport');" routerLink="/index/lloydsOccupancyRiskReport">Lloyds Pharmacy Occupancy Risk Report</a></li>
+                            <!--added by sonal -->
+
+
+
+                            <!--<li id="51"><a href="index.php?report=128&id=clinical">Clinical Report</a></li>-->
+                            <li id="52"><a (click)="getParams('PBD');" routerLink="/index/PBD">Vitality Health Report</a></li>
+                            <li id="53"><a (click)="getParams('PCAA');" routerLink="/index/PCAA">Pharmacy Clinics and Appointment report </a></li>
+                        </ul>
+
+
+
+                    </div>
+
+                    <a class="menuitem" routerLink="/logout" style="border-bottom-width: 0">Logout</a>
+                </div>
+
+
+            </div>
+
+
+            <div class="rightpanel">
+                <div class="module clearfix">
+                    <h2>Auto-generated Reports</h2>
+                    <h3 style="color: #14BED9; font-size: 22px; ">{{showdata}}</h3>
+                    <!-- <div *ngIf="{{showdata.group1}} ==1" style='color:green;margin:15px 0 15px 0;'>File is removed successfully.</div>
+ <div *ngIf="{{showdata.autoDeleteError}} !=''" style="color:red;">{{showdata.autoDeleteError}}</div>  -->
+                </div>
+
+                <div style="padding:10px"></div>
+
+                <div id="previous">
+                    <div class="module2 clearfix">
+
+                        <h2>Previously Generated</h2>
+                        <div class="mrgn0x40">
+                            <div class="clear"></div>
+                            Hover over a file for its generation date - click to download.
+                            <br><br>
+                            <ul id="galleryStyle" style="padding-top:20px">
+
+                                <li *ngFor="let file of files">
+                                    <div alt="Delete" title="Delete">
+                                         <a style="margin-left:19px;" class="confirmDelete" href='#'>
+								Delete
+							</a> 
+                                    </div>
+                                    <div>
+                                        <div alt="Delete" title="Delete">
+
+                                        </div>
+                                        <div>
+                                            <a (click)="download(file.originalName)">
+                                                <div>
+                                                    <img style="width:80px;" class="fileDetails" src='./assets/images/zip.png' title="File Generated on: {{file.date}}">
+                                                </div>
+                                                <div>
+                                                    {{file.name}}
+
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <app-footer></app-footer>
